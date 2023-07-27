@@ -1,0 +1,17 @@
+#body{
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/img/background.png");
+    background-size: cover;
+
+}
+#boy{
+    position: absolute;
+    height: 220px;
+    margin-top: 365px;
+}
