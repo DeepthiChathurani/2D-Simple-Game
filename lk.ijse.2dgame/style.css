@@ -15,3 +15,10 @@
     height: 220px;
     margin-top: 365px;
 }
+#score{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 25px;
+}
