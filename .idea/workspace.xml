@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lk.ijse.2dgame/assets/audio/run.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -31,12 +33,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk.ijse.2dgame/assets/audio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2D-Game\lk.ijse.2dgame\assets\audio" />
       <recent name="F:\2D-Game\lk.ijse.2dgame\assest\img" />
     </key>
   </component>
@@ -51,7 +54,8 @@
       <workItem from="1690463612173" duration="1600000" />
       <workItem from="1690699291864" duration="413000" />
       <workItem from="1690772971191" duration="1334000" />
-      <workItem from="1691252344834" duration="587000" />
+      <workItem from="1691252344834" duration="1562000" />
+      <workItem from="1691850381303" duration="2945000" />
     </task>
     <servers />
   </component>
