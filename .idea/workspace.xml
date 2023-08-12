@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lk.ijse.2dgame/assets/audio/run.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <workItem from="1690699291864" duration="413000" />
       <workItem from="1690772971191" duration="1334000" />
       <workItem from="1691252344834" duration="1562000" />
-      <workItem from="1691850381303" duration="2945000" />
+      <workItem from="1691850381303" duration="5500000" />
     </task>
     <servers />
   </component>
