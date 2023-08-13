@@ -1,13 +1,15 @@
 // Run Sound
-let runSound = new Audio("run.mp3");
+let runSound = new Audio("assets/audio/run.mp3");
 runSound.loop=true;
+//Jump Sound
+let jumpSound = new Audio("assets/audio/jump.mp3");
 
 function keyCheck(event){
     //Enter
 if (event.which==13){
 if(runWorkerId==0){
     runWorkerId = setInterval(run,100);
-   // runSound.play();
+   runSound.play();
 }
 }
 
@@ -15,6 +17,7 @@ if(runWorkerId==0){
     if(event.which==32){
         if(jumpWorkerId==0){
             jumpWorkerId = setInterval(jump,100);
+            jumpSound.play();
         }
     }
 }
