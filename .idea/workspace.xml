@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lk.ijse.2dgame/assets/audio/jump.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" afterDir="false" />
     </list>
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lk.ijse.2dgame/assets/audio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -55,7 +54,8 @@
       <workItem from="1690772971191" duration="1334000" />
       <workItem from="1691252344834" duration="1562000" />
       <workItem from="1691850381303" duration="5819000" />
-      <workItem from="1691942362209" duration="1407000" />
+      <workItem from="1691942362209" duration="3202000" />
+      <workItem from="1692029213808" duration="2789000" />
     </task>
     <servers />
   </component>
