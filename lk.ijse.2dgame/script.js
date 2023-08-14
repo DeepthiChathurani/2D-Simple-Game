@@ -58,22 +58,26 @@ function jump(){
     if(jumpImageNumber==13){
         jumpImageNumber = 1;
 
+        clearInterval(jumpWorkerId);
+        jumpWorkerId=0;
+
+        runWorkerId = setInterval(run,100);
+        runSound.play();
+
+        if (backgroundWorkerId == 0) {
+            backgroundWorkerId = setInterval(moveBackground, 100);
+        }
     }
 
-    if(backgroundWorkerId==0){
-        backgroundWorkerId = setInterval(moveBackground,100);
-
-    }
   boyId.src = "assets/img/jump ("+jumpImageNumber+").png"
 }
 
-//Move Background
+// Move Background
 let BackgroundId = document.getElementById("background");
 let backgroundX = 0;
 let backgroundWorkerId = 0;
 
 function moveBackground() {
-    backgroundX = backgroundX-20;
-    BackgroundId.style.backgroundPositionX = backgroundX ="px";
-
+    backgroundX = backgroundX - 20;
+    BackgroundId.style.backgroundPositionX = backgroundX + "px";
 }
