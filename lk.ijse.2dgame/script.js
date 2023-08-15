@@ -69,7 +69,9 @@ function jump(){
         if (backgroundWorkerId == 0) {
             backgroundWorkerId = setInterval(moveBackground, 100);
         }
-
+        if(scoreWorkerId==0){
+            scoreWorkerId = setInterval(updateScore,100);
+        }
     }
 
   boyId.src = "assets/img/jump ("+jumpImageNumber+").png"
