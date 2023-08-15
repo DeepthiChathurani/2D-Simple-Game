@@ -11,6 +11,8 @@ if(runWorkerId==0){
     runWorkerId = setInterval(run,100);
    runSound.play();
    backgroundWorkerId = setInterval(moveBackground,100);
+   scoreWorkerId = setInterval(updateScore,100);
+
 }
 }
 
@@ -67,6 +69,7 @@ function jump(){
         if (backgroundWorkerId == 0) {
             backgroundWorkerId = setInterval(moveBackground, 100);
         }
+
     }
 
   boyId.src = "assets/img/jump ("+jumpImageNumber+").png"
@@ -80,4 +83,15 @@ let backgroundWorkerId = 0;
 function moveBackground() {
     backgroundX = backgroundX - 20;
     BackgroundId.style.backgroundPositionX = backgroundX + "px";
+}
+
+//Score
+let scoreId = document.getElementById("score");
+let newScore = 0;
+let scoreWorkerId =0;
+
+function updateScore() {
+    newScore ++;
+    scoreId.innerHTML = newScore;
+
 }
