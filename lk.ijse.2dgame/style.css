@@ -22,3 +22,12 @@
     font-family: Arial;
     margin-left: 25px;
 }
+#block{
+    position: absolute;
+    background: url("assets/img/flame.gif");
+    background-size: cover;
+    width: 80px;
+    height: 150px;
+    margin-top: 430px;
+
+}

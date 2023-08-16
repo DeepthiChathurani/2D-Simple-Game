@@ -97,3 +97,14 @@ function updateScore() {
     scoreId.innerHTML = newScore;
 
 }
+
+//Create Block
+let blockMarginLeft = 250;
+let blockWorkerId=0;
+let blockId=1;
+
+function createBlock() {
+    let block =document.createElement("div");
+    block.className = "block";
+    block.id ="block" + blockId;
+}

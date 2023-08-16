@@ -4,6 +4,7 @@
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,8 @@
       <workItem from="1691850381303" duration="5819000" />
       <workItem from="1691942362209" duration="3202000" />
       <workItem from="1692029213808" duration="6767000" />
-      <workItem from="1692114329355" duration="2217000" />
+      <workItem from="1692114329355" duration="2591000" />
+      <workItem from="1692168999043" duration="1656000" />
     </task>
     <servers />
   </component>
