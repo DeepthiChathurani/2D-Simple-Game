@@ -12,6 +12,7 @@ if(runWorkerId==0){
    runSound.play();
    backgroundWorkerId = setInterval(moveBackground,100);
    scoreWorkerId = setInterval(updateScore,100);
+   blockWorkerId = setInterval(createBlock,100);
 
 }
 }
@@ -72,6 +73,9 @@ function jump(){
         if(scoreWorkerId==0){
             scoreWorkerId = setInterval(updateScore,100);
         }
+        if (blockWorkerId==0){
+            blockWorkerId = setInterval(createBlock,100);
+        }
     }
 
   boyId.src = "assets/img/jump ("+jumpImageNumber+").png"
@@ -99,12 +103,22 @@ function updateScore() {
 }
 
 //Create Block
-let blockMarginLeft = 250;
-let blockWorkerId=0;
-let blockId=1;
+var blockMarginLeft = 250;
+var blockWorkerId = 0;
+var blockId = 1;
 
 function createBlock() {
-    let block =document.createElement("div");
+    var block = document.createElement("div");
     block.className = "block";
-    block.id ="block" + blockId;
+    block.id = "block" + blockId;
+
+    blockId++;
+
+    var gap = Math.random() * (1000 - 400) + 400;
+
+    blockMarginLeft = blockMarginLeft + 500;
+    block.style.marginLeft = blockMarginLeft + "px";
+
+    document.getElementById("background").appendChild(block);
 }
+

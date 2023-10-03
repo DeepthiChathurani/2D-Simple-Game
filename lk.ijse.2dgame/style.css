@@ -13,7 +13,7 @@
 #boy{
     position: absolute;
     height: 220px;
-    margin-top: 365px;
+    margin-top: 350px;
 }
 #score{
     position: absolute;
@@ -24,10 +24,10 @@
 }
 #block{
     position: absolute;
-    background: url("assets/img/flame.gif");
     background-size: cover;
     width: 80px;
     height: 150px;
     margin-top: 430px;
+    margin-left: 600px;
 
 }
