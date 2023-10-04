@@ -183,7 +183,7 @@ function keyCheck(event) {
 
             backgroundWorkerId = setInterval(moveBackground, 100);
             scoreWorkerId = setInterval(updateScore, 100);
-            blockWorkerId = setInterval(createBlock, 100);
+          //  blockWorkerId = setInterval(createBlock, 100);
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
 
@@ -247,9 +247,9 @@ function jump() {
         if (scoreWorkerId == 0) {
             scoreWorkerId = setInterval(updateScore, 100);
         }
-        if (blockWorkerId == 0) {
-            blockWorkerId = setInterval(createBlock, 100);
-        }
+        // if (blockWorkerId == 0) {
+        //     blockWorkerId = setInterval(createBlock, 100);
+        // }
         if (moveBlockWorkerId == 0) {
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
@@ -280,33 +280,53 @@ function updateScore() {
 }
 
 //create block
-var blockMarginLeft = 250;
-var blockWorkerId = 0;
-var blockId = 1;
-var block = document.createElement("div");
-function createBlock() {
-    block.className = "block";
-    block.id = "block" + blockId;
+// var blockMarginLeft = 250;
+// var blockWorkerId = 0;
+// var blockId = 1;
+// var block = document.createElement("div");
+// function createBlock() {
+//     block.className = "block";
+//     block.id = "block" + blockId;
+//
+//     blockId++;
+//
+//     var gap = Math.random() * (1000 - 400) + 400;
+//
+//     blockMarginLeft = blockMarginLeft + 500;
+//     block.style.marginLeft = blockMarginLeft + "px";
+//
+//     document.getElementById("background").appendChild(block);
+// }
 
-    blockId++;
+var blockMarginLeft =1350;
 
-    var gap = Math.random() * (1000 - 400) + 400;
-
-    blockMarginLeft = blockMarginLeft + 500;
-    block.style.marginLeft = blockMarginLeft + "px";
-
-    document.getElementById("background").appendChild(block);
+function createBlock(){
+    for(var i=0; i<= 100 + 400;i++){
+        var block = document.createElement("div");
+        block.className="block";
+        document.getElementById("background").appendChild(block);
+        block.style.marginLeft = blockMarginLeft +"px";
+        block.id ="block"+i;
+        blockMarginLeft =blockMarginLeft +500;
+        var gap = Math.random() * (1000 - 400) + 400;
+    //  if(i>=5){
+    //      blockMarginLeft =blockMarginLeft +100;
+    //  }
+    //     if(i<5){
+    //         blockMarginLeft =blockMarginLeft +200;
+    //     }
+     }
 }
-
 //block move
+
 var moveBlockWorkerId = 0;
 function moveBlock() {
-    for (var i = 1; i <= blockId; i++) {
-        var currentBlock = document.getElementById("block" + [i]);
-        var currentBlockMarginLeft = currentBlock+block.style.marginLeft;
+    for (var i = 1; i < 100; i++) {
+        var currentBlock = document.getElementById("block" + i);
+        var currentBlockMarginLeft = getComputedStyle(currentBlock).marginLeft;
         var newMarginLeft = parseInt(currentBlockMarginLeft) - 20;
 
-        currentBlockMarginLeft = newMarginLeft + "px";
+        currentBlock.style.marginLeft = newMarginLeft + "px";
         //alert(newMarginLeft);
         //120,10
 
@@ -322,7 +342,6 @@ function moveBlock() {
                 jumpWorkerId = -1;
                 clearInterval(scoreWorkerId);
                 clearInterval(backgroundWorkerId);
-                clearInterval(blockWorkerId);
                 clearInterval(moveBlockWorkerId);
 
                 deadWorkerId = setInterval(dead, 100);
@@ -330,26 +349,25 @@ function moveBlock() {
             }
         }
     }
-
 }
 //Dead
-var deadImageNumber = 1;
-var deadWorkerId = 0;
+    var deadImageNumber = 1;
+    var deadWorkerId = 0;
 
-function dead() {
-    deadImageNumber++;
+    function dead() {
+        deadImageNumber++;
 
-    if (deadImageNumber == 11) {
-        deadImageNumber =10;
-        boyId.style.marginTop ="365px";
-        document.getElementById("endScreen").style.visibility = "visible";
-        document.getElementById("endScore").innerHTML = newScore;
+        if (deadImageNumber == 11) {
+            deadImageNumber = 10;
+            boyId.style.marginTop = "365px";
+            document.getElementById("endScreen").style.visibility = "visible";
+            document.getElementById("endScore").innerHTML = newScore;
+        }
+        boyId.src = "assets/img/Dead (" + deadImageNumber + ").png";
     }
-    boyId.src = "assets/img/Dead ("+ deadImageNumber +").png";
-}
 
 //page relord
 
-function reload(){
-    location.reload();
-}
+    function reload() {
+        location.reload();
+    }
