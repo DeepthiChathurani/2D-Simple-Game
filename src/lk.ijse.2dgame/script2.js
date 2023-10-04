@@ -172,6 +172,9 @@ var jumpSound = new Audio("assets/audio/jump.mp3");
 //dead sound
 var deadSound = new Audio("assets/audio/dead.mp3");
 
+//level up sound
+var levelup =new Audio("assets/audio/levelup.mp3");
+
 function keyCheck(event) {
     //Enter
     if (event.which == 13) {
@@ -183,7 +186,7 @@ function keyCheck(event) {
 
             backgroundWorkerId = setInterval(moveBackground, 100);
             scoreWorkerId = setInterval(updateScore, 100);
-          //  blockWorkerId = setInterval(createBlock, 100);
+            //  blockWorkerId = setInterval(createBlock, 100);
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
 
@@ -276,6 +279,9 @@ var scoreWorkerId = 0;
 function updateScore() {
     newScore++;
     scoreId.innerHTML = newScore;
+    if(newScore==200){
+        levelCompleted();
+    }
 
 }
 
@@ -309,13 +315,13 @@ function createBlock(){
         block.id ="block"+i;
         blockMarginLeft =blockMarginLeft +500;
         var gap = Math.random() * (1000 - 400) + 400;
-    //  if(i>=5){
-    //      blockMarginLeft =blockMarginLeft +100;
-    //  }
-    //     if(i<5){
-    //         blockMarginLeft =blockMarginLeft +200;
-    //     }
-     }
+        if(i<=5){
+            blockMarginLeft =blockMarginLeft +100;
+        }
+        if(i>=6){
+            blockMarginLeft =blockMarginLeft +200;
+        }
+    }
 }
 //block move
 
@@ -351,23 +357,44 @@ function moveBlock() {
     }
 }
 //Dead
-    var deadImageNumber = 1;
-    var deadWorkerId = 0;
+var deadImageNumber = 1;
+var deadWorkerId = 0;
 
-    function dead() {
-        deadImageNumber++;
+function dead() {
+    deadImageNumber++;
 
-        if (deadImageNumber == 11) {
-            deadImageNumber = 10;
-            boyId.style.marginTop = "365px";
-            document.getElementById("endScreen").style.visibility = "visible";
-            document.getElementById("endScore").innerHTML = newScore;
-        }
-        boyId.src = "assets/img/Dead (" + deadImageNumber + ").png";
+    if (deadImageNumber == 11) {
+        deadImageNumber = 10;
+        boyId.style.marginTop = "365px";
+        document.getElementById("endScreen").style.visibility = "visible";
+        document.getElementById("endScore").innerHTML = newScore;
     }
+    boyId.src = "assets/img/Dead (" + deadImageNumber + ").png";
+}
 
 //page relord
 
-    function reload() {
-        location.reload();
-    }
+function reload() {
+    location.reload();
+}
+//start level completed
+function levelCompleted(){
+    clearInterval(runWorkerId);
+    runWorkerId =-1;
+    runSound.pause();
+    clearInterval(jumpWorkerId);
+    jumpWorkerId = -1;
+    jumpSound.pause();
+    clearInterval(scoreWorkerId);
+    scoreWorkerId =-1;
+    clearInterval(backgroundWorkerId);
+    backgroundWorkerId =-1;
+    clearInterval(moveBlockWorkerId);
+    moveBlockWorkerId=-1;
+
+    boyId.className = "levelCompleted";
+    document.getElementById("currentScore").style.visibility = "visible";
+    document.getElementById("currentScore").innerHTML = newScore;
+    levelup.play();
+
+}

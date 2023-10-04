@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/audio/levelup.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -29,11 +34,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -42,12 +48,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\2D-Game\src\lk.ijse.2dgame\assets\img" />
       <recent name="F:\2D-Game\lk.ijse.2dgame\assets" />
       <recent name="F:\2D-Game\lk.ijse.2dgame\assets\img" />
       <recent name="F:\2D-Game\lk.ijse.2dgame\assets\audio" />
       <recent name="F:\2D-Game\lk.ijse.2dgame\assest\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\2D-Game\src\lk.ijse.2dgame\assets\audio" />
       <recent name="F:\2D-Game\src" />
     </key>
   </component>
@@ -72,7 +80,7 @@
       <workItem from="1696068594966" duration="931000" />
       <workItem from="1696329339462" duration="19481000" />
       <workItem from="1696381984086" duration="1185000" />
-      <workItem from="1696385147609" duration="10995000" />
+      <workItem from="1696385147609" duration="22436000" />
     </task>
     <servers />
   </component>
