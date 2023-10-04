@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>2D-Simple Game</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/bootstrap.esm.js"></script>
-    <script src="assets/js/bootstrap.js"></script>
+
+
 
 
 </head>
@@ -18,9 +17,18 @@
 <div class="background" id="background">
  <img class="boy"  id="boy" src="assets/img/Run (1).png">
     <div class="score" id="score">0</div>
- <img class="block" id="block" src="assets/img/flame.gif">
+<!--    <div class="block" id="block" ></div>-->
+    <div class="endScreen" id="endScreen">
+        <div>Game Over</div>
+        <div>Your Score</div>
+        <div class="endScore" id="endScore"> 0</div>
+        <button class="btn" id="btn" onclick="reload();">Try Again</button>
+    </div>
 </div>
 <script src="assets/js/jquery-3.7.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/font-awesome/fontawesome-free-6.4.0-web/js/all.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
