@@ -186,7 +186,7 @@ function keyCheck(event) {
 
             backgroundWorkerId = setInterval(moveBackground, 100);
             scoreWorkerId = setInterval(updateScore, 100);
-            //  blockWorkerId = setInterval(createBlock, 100);
+
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
 
@@ -250,9 +250,6 @@ function jump() {
         if (scoreWorkerId == 0) {
             scoreWorkerId = setInterval(updateScore, 100);
         }
-        // if (blockWorkerId == 0) {
-        //     blockWorkerId = setInterval(createBlock, 100);
-        // }
         if (moveBlockWorkerId == 0) {
             moveBlockWorkerId = setInterval(moveBlock, 100);
         }
@@ -262,7 +259,7 @@ function jump() {
 }
 
 // Move Background
-var BackgroundId = document.getElementById("background");
+var BackgroundId = document.getElementById("background1");
 var backgroundX = 0;
 var backgroundWorkerId = 0;
 
@@ -279,47 +276,27 @@ var scoreWorkerId = 0;
 function updateScore() {
     newScore++;
     scoreId.innerHTML = newScore;
-    if(newScore==200){
+    if(newScore==300){
         levelCompleted();
     }
 
 }
-
-//create block
-// var blockMarginLeft = 250;
-// var blockWorkerId = 0;
-// var blockId = 1;
-// var block = document.createElement("div");
-// function createBlock() {
-//     block.className = "block";
-//     block.id = "block" + blockId;
-//
-//     blockId++;
-//
-//     var gap = Math.random() * (1000 - 400) + 400;
-//
-//     blockMarginLeft = blockMarginLeft + 500;
-//     block.style.marginLeft = blockMarginLeft + "px";
-//
-//     document.getElementById("background").appendChild(block);
-// }
-
-var blockMarginLeft =1350;
+var blockMarginLeft =650;
 
 function createBlock(){
-    for(var i=0; i<= 100 + 400;i++){
+    for(var i=0; i<= 100 ;i++){
         var block = document.createElement("div");
         block.className="block";
-        document.getElementById("background").appendChild(block);
+        document.getElementById("background1").appendChild(block);
         block.style.marginLeft = blockMarginLeft +"px";
         block.id ="block"+i;
-        blockMarginLeft =blockMarginLeft +500;
+
         var gap = Math.random() * (1000 - 400) + 400;
         if(i<=5){
-            blockMarginLeft =blockMarginLeft +100;
+            blockMarginLeft =blockMarginLeft +500;
         }
         if(i>=6){
-            blockMarginLeft =blockMarginLeft +200;
+            blockMarginLeft =blockMarginLeft +350;
         }
     }
 }
@@ -327,7 +304,7 @@ function createBlock(){
 
 var moveBlockWorkerId = 0;
 function moveBlock() {
-    for (var i = 1; i < 100; i++) {
+    for (var i = 0; i < 100; i++) {
         var currentBlock = document.getElementById("block" + i);
         var currentBlockMarginLeft = getComputedStyle(currentBlock).marginLeft;
         var newMarginLeft = parseInt(currentBlockMarginLeft) - 20;
