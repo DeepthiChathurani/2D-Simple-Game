@@ -23,6 +23,12 @@
     margin-top: 345px;
     /*margin-left: 50px;*/
 }
+#boy2{
+    position: absolute;
+    height: 220px;
+    margin-top: 310px;
+    /*margin-left: 50px;*/
+}
 #score{
     position: absolute;
     font-size: 50px;
@@ -37,9 +43,14 @@
     width: 90px;
     height: 160px;
     margin-top: 430px;
-    /*margin-left: 250px;*/
-
-
+}
+.block2{
+    position: absolute;
+    background-image: url("assets/img/flame.gif");
+    background-size: cover;
+    width: 90px;
+    height: 160px;
+    margin-top: 380px;
 }
 .endScreen{
     position: absolute;

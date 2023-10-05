@@ -205,7 +205,7 @@ function keyCheck(event) {
     }
 }
 //run
-var boyId = document.getElementById("boy");
+var boyId = document.getElementById("boy2");
 var runImageNumber = 1;
 var runWorkerId = 0;
 
@@ -259,7 +259,7 @@ function jump() {
 }
 
 // Move Background
-var BackgroundId = document.getElementById("background1");
+var BackgroundId = document.getElementById("background2");
 var backgroundX = 0;
 var backgroundWorkerId = 0;
 
@@ -276,7 +276,7 @@ var scoreWorkerId = 0;
 function updateScore() {
     newScore++;
     scoreId.innerHTML = newScore;
-    if(newScore==300){
+    if(newScore==500){
         levelCompleted();
     }
 
@@ -286,17 +286,17 @@ var blockMarginLeft =650;
 function createBlock(){
     for(var i=0; i<= 100 ;i++){
         var block = document.createElement("div");
-        block.className="block";
-        document.getElementById("background1").appendChild(block);
+        block.className="block2";
+        document.getElementById("background2").appendChild(block);
         block.style.marginLeft = blockMarginLeft +"px";
-        block.id ="block"+i;
+        block.id ="block2"+i;
 
-        var gap = Math.random() * (1000 - 400) + 400;
-        if(i<=5){
-            blockMarginLeft =blockMarginLeft +500;
+     //   var gap = Math.random() * (1000 - 400) + 400;
+        if(i<=10){
+            blockMarginLeft =blockMarginLeft +400;
         }
-        if(i>=6){
-            blockMarginLeft =blockMarginLeft +350;
+        if(i>=11){
+            blockMarginLeft =blockMarginLeft +250;
         }
     }
 }
