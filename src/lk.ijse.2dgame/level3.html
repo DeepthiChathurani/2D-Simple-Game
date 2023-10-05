@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Red Hat Level 2</title>
+    <title>Red Hat Level 3</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
     <link rel="stylesheet" href="assets/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="body" id="body" onload="createBlock();" onkeyup="keyCheck(event);" >
-<div class="background2" id="background2">
-    <img class="boy2"  id="boy2" src="assets/img/Run (1).png"/>
+
+<body class="body" id="body" onload="createBlock();moveBlock();" onkeyup="keyCheck(event);" >
+<div class="background3" id="background3">
+    <img class="boy"  id="boy" src="assets/img/Run (1).png"/>
     <div class="score" id="score">Score: 0</div>
     <div class="endScreen" id="endScreen">
         <div>Game Over</div>
@@ -19,24 +20,12 @@
         <div class="endScore" id="endScore"> 0</div>
         <button class="btn" id="btn" onclick="reload();">Try Again</button>
     </div>
-
 </div>
-<div id="next">
-    <div class="nextLevel1" id="nextLevel1">
-        <div class="d"></div>
-        <div class="d1">Level 2 Completed</div>
-        <div class="d2">Your Score</div>
-        <div class="currentScore" id="currentScore">0</div>
-        <button class="btn1" id="btn1"><a href="level3.html">Next Level</a></button>
-        <div class="d3"></div>
-    </div>
-</div>
-
-
 <script src="assets/js/jquery-3.7.0.min.js"></script>
 <script src="assets/js/bootstrap.bundle.js"></script>
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/font-awesome/fontawesome-free-6.4.0-web/js/all.js"></script>
-<script src="script2.js"></script>
+<script src="script3.js"></script>
+
 </body>
 </html>
