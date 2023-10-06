@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +74,8 @@
       <workItem from="1696329339462" duration="19481000" />
       <workItem from="1696381984086" duration="1185000" />
       <workItem from="1696385147609" duration="23948000" />
-      <workItem from="1696472471707" duration="20746000" />
+      <workItem from="1696472471707" duration="21665000" />
+      <workItem from="1696569804553" duration="329000" />
     </task>
     <servers />
   </component>
