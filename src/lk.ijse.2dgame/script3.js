@@ -313,7 +313,7 @@ function levelCompleted(){
     clearInterval(moveDragonWorkerId);
     moveDragonWorkerId=-1;
 
-    document.getElementById("nextLevel4").style.visibility = "visible";
+    document.getElementById("nextLevel1").style.visibility = "visible";
     document.getElementById("currentScore").style.visibility = "visible";
     document.getElementById("currentScore").innerHTML = newScore;
     levelup.play();
