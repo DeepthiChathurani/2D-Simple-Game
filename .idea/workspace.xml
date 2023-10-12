@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (10).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (11).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (6).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (7).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (8).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/Slide (9).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/dragon.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,7 +87,10 @@
       <workItem from="1696381984086" duration="1185000" />
       <workItem from="1696385147609" duration="23948000" />
       <workItem from="1696472471707" duration="21665000" />
-      <workItem from="1696569804553" duration="329000" />
+      <workItem from="1696569804553" duration="3148000" />
+      <workItem from="1696692904679" duration="569000" />
+      <workItem from="1696815566421" duration="2469000" />
+      <workItem from="1696991117453" duration="20303000" />
     </task>
     <servers />
   </component>
