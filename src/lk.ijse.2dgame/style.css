@@ -10,23 +10,31 @@
     background-size: cover;
 
 }
+
 #background2{
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     background-image: url("assets/img/background2.png");
-    background-size: cover;
+
 }
 #background3{
-    background-size: cover;
     width: 100vw;
     height: 100vh;
     background-image: url("assets/img/background3.png");
+    background-size: cover;
+}
+#background4{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/img/background4.png");
 
 }
 #boy{
     position: absolute;
     height: 220px;
-    margin-top: 345px;
+    margin-top: 350px;
     /*margin-left: 50px;*/
 }
 #boy2{
@@ -38,6 +46,14 @@
 #score{
     position: absolute;
     font-size: 50px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 25px;
+}
+#score4{
+    position: absolute;
+    font-size: 50px;
+    color: white;
     font-weight: bold;
     font-family: Arial;
     margin-left: 25px;
@@ -56,7 +72,7 @@
     background-size: cover;
     width: 90px;
     height: 160px;
-    margin-top: 380px;
+    margin-top: 430px;
 }
 .block3{
     position: absolute;
@@ -64,7 +80,7 @@
     background-size: cover;
     width: 90px;
     height: 160px;
-    margin-top: 430px;
+    margin-top: 380px;
 }
 .dragon{
     position: absolute;
@@ -90,9 +106,12 @@
     display: flex;
     visibility: hidden;
 }
+#s1 , #s2{
+    color: white;
+}
 .endScore{
     font-weight: bold;
-    color: red;
+    color: #ff0000;
 }
 #btn{
     margin-top: 20px;
