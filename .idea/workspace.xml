@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="712fe6aa-b9bf-420f-b4fd-c3e183f3fab6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/assets/img/background3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/index1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/level4.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/level4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/script4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/script4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk.ijse.2dgame/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +85,7 @@
       <workItem from="1696692904679" duration="569000" />
       <workItem from="1696815566421" duration="2469000" />
       <workItem from="1696991117453" duration="33236000" />
-      <workItem from="1697257002986" duration="522000" />
+      <workItem from="1697257002986" duration="2172000" />
     </task>
     <servers />
   </component>

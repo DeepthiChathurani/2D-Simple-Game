@@ -59,7 +59,7 @@ function keyCheck(event) {
 
 
 //run
-var boyId = document.getElementById("boy");
+var boyId = document.getElementById("boy4");
 var runImageNumber = 1;
 var runWorkerId = 0;
 
@@ -75,7 +75,7 @@ function run() {
 //jump
 var jumpImageNumber = 1;
 var jumpWorkerId = 0;
-var boyMarginTop = 355;
+var boyMarginTop = 335;
 
 function jump() {
     jumpImageNumber++;
@@ -185,10 +185,10 @@ var blockMarginLeft =650;
 function createBlock(){
     for(var i=0; i<= 100 ;i++){
         var block = document.createElement("div");
-        block.className="block3";
+        block.className="block4";
         document.getElementById("background4").appendChild(block);
         block.style.marginLeft = blockMarginLeft +"px";
-        block.id ="block3"+i;
+        block.id ="block4"+i;
         blockMarginLeft =blockMarginLeft +500;
 
     }
@@ -198,7 +198,7 @@ function createBlock(){
 var moveBlockWorkerId = 0;
 function moveBlock() {
     for (var i = 0; i < 100; i++) {
-        var currentBlock = document.getElementById("block3" + i);
+        var currentBlock = document.getElementById("block4" + i);
         var currentBlockMarginLeft = getComputedStyle(currentBlock).marginLeft;
         var newMarginLeft = parseInt(currentBlockMarginLeft) - 20;
 
@@ -211,7 +211,7 @@ function moveBlock() {
             // alert("Dead");
             // 305
 
-            if (boyMarginTop > 345) {
+            if (boyMarginTop > 325) {
                 clearInterval(runWorkerId);
                 runSound.pause();
                 clearInterval(jumpWorkerId);
@@ -229,7 +229,7 @@ function moveBlock() {
 }
 // dragon block create
 
-var dragonMarginTop =345;
+var dragonMarginTop =290;
 var dragonMarginLeft = 900;
 
 function createDragon() {
@@ -238,6 +238,7 @@ function createDragon() {
         dragonGif.className="dragon";
         document.getElementById("background4").appendChild(dragonGif);
         dragonGif.style.marginLeft = dragonMarginLeft +"px";
+        dragonGif.style.marginTop = dragonMarginTop +"px";
         dragonGif.id ="dragon"+i;
         dragonMarginLeft =dragonMarginLeft +500;
     }
@@ -256,7 +257,7 @@ function moveDragon() {
         if (newDragonMarginLeft < 120 & newDragonMarginLeft >10) {
 
 
-            if (boyMarginTop <= 370) {
+            if (boyMarginTop <= 350) {
                 clearInterval(runWorkerId);
                 runWorkerId =-1;
                 runSound.pause();
