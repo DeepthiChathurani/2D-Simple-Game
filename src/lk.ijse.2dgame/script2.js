@@ -170,9 +170,9 @@ var newScore = 0;
 var scoreWorkerId = 0;
 
 function updateScore() {
-    newScore = newScore + 3;
+    newScore = newScore + 2;
     scoreId.innerHTML = newScore;
-    if(newScore==600){
+    if(newScore==400){
         levelCompleted();
     }
 }

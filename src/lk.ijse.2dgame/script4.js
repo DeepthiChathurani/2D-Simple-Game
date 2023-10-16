@@ -174,7 +174,7 @@ var scoreWorkerId = 0;
 function updateScore() {
     newScore = newScore + 4;
     scoreId.innerHTML = newScore;
-    if(newScore==700){
+    if(newScore==800){
         levelCompleted();
     }
 }
@@ -316,9 +316,9 @@ function levelCompleted(){
     clearInterval(moveDragonWorkerId);
     moveDragonWorkerId=-1;
 
-    document.getElementById("nextLevel1").style.visibility = "visible";
-    document.getElementById("currentScore").style.visibility = "visible";
-    document.getElementById("currentScore").innerHTML = newScore;
+    document.getElementById("won").style.visibility = "visible";
+    // document.getElementById("currentScore").style.visibility = "visible";
+    // document.getElementById("currentScore").innerHTML = newScore;
     levelup.play();
 
 }
